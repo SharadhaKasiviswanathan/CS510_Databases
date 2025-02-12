@@ -14,7 +14,7 @@ class DatabaseManager:
                 host='localhost',
                 database='students_grades_management',
                 user='root',
-                password='skasivisw99sql!?'
+                password='yourpwd'
             )
         except Error as e:
             print(f'Error connecting to MySQL database: {e}')
